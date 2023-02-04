@@ -1,0 +1,44 @@
+{
+    "ietf-interfaces:interface": {
+        "name": "Loopback102",
+        "description": "Configured by RESTCONF",
+        "type": "iana-if-type:softwareLoopback",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+            "address": [
+                {
+                    "ip": "172.16.102.1",
+                    "netmask": "255.255.255.0"
+                }
+            ]
+        }
+    },
+     "ietf-interfaces:interface": {
+        "name": "Loopback103",
+        "description": "Configured by RESTCONF",
+        "type": "iana-if-type:softwareLoopback",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+            "address": [
+                {
+                    "ip": "172.16.103.1",
+                    "netmask": "255.255.255.0"
+                }
+            ]
+        }
+    },
+     "ietf-interfaces:interface": {
+        "name": "Loopback104",
+        "description": "Configured by RESTCONF",
+        "type": "iana-if-type:softwareLoopback",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+            "address": [
+                {
+                    "ip": "172.16.104.1",
+                    "netmask": "255.255.255.0"
+                }
+            ]
+        }
+    }
+}
